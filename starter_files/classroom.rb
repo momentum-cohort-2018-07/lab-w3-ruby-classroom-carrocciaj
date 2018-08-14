@@ -53,7 +53,7 @@ end
 
 # Return a hash of students and their final letter grade, as determined
 # by their average.
-def final_letter_grade(data)
+def final_letter_grades(data)
   averages(data).transform_values do |grade| 
     letter_grade(grade)
   end
